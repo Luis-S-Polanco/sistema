@@ -1,0 +1,70 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido en la página */
+    align-items: center; /* Centra verticalmente el contenido en la página */
+    height: 100vh; /* Establece el alto del cuerpo de la página al 100% del alto de la ventana */
+    margin: 0; /* Elimina el margen predeterminado */
+    background-color: #f4f4f4; /* Establece el color de fondo */
+}
+
+/* Estilos para el contenedor principal */
+.center-container {
+    text-align: center; /* Centra el texto y los elementos en el contenedor */
+    position: relative; /* Establece la posición relativa para el contenedor */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 70px;
+    width: 250px;
+    text-align: 300px
+    
+}
+
+/* Estilos para el título principal */
+.titulo {
+    font-size: 26px; /* Establece el tamaño de fuente del título */
+}
+
+
+
+/* Estilos para el formulario */
+.formulario {
+    display: flex; /* Utiliza un diseño flexible para alinear elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos en el formulario */
+}
+
+/* Estilos para el icono */
+.icono {
+    width: 80px; /* Establece el ancho del icono (ajústalo según tus preferencias) */
+    height: 80px; /* Establece el alto del icono (ajústalo según tus preferencias) */
+    margin-right: 10px; /* Agrega un espacio a la derecha del icono para separarlo del formulario */
+}
+
+/* Estilos para los campos de contraseña y código de verificación */
+input {
+    width: 80%; /* Establece el ancho de los campos al 100% del contenedor */
+    padding: 10px; /* Agrega relleno a los campos de entrada */
+    margin: 5px 0; /* Agrega margen superior e inferior a los campos de entrada */
+    border: 1px solid #ccc; /* Establece un borde con color gris claro */
+    border-radius: 15px; /* Aplica bordes redondeados a los campos de entrada */
+    justify-content: center; /* Centra horizontalmente el contenido en la página */
+    align-items: center; /* Centra verticalmente el contenido en la página */
+}
+
+/* Estilos para el botón de cambiar contraseña */
+button {
+    width: 75%; /* Establece el ancho del botón al 100% del contenedor */
+    padding: 10px; /* Agrega relleno al botón */
+    background-color: #007BFF; /* Establece el color de fondo del botón */
+    color: #fff; /* Establece el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 10px; /* Aplica bordes redondeados al botón */
+    cursor: pointer; /* Muestra un cursor de puntero al pasar sobre el botón */
+    justify-content: center; /* Centra horizontalmente el contenido en la página */
+    align-items: center; /* Centra verticalmente el contenido en la página */
+    margin: 15px 0; 
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo del botón al pasar el cursor sobre él */
+}

@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Fondo de página en gris claro */
+}
+
+.container {
+    background-color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: relative; /* Permite posicionar el icono correctamente */
+    height: 60px; /* Altura del contenedor */
+}
+
+/* Estilos para los contenidos izquierdo, central y derecho */
+.left-content {
+    flex: 1; /* Toma el espacio necesario para expandirse */
+    display: flex;
+    align-items: center;
+}
+
+.center-content {
+    text-align: center; /* Texto centrado */
+    flex: 2; /* Toma el doble de espacio que el izquierdo */
+    display: flex;
+    align-items: center;
+}
+
+.right-content {
+    text-align: right; /* Texto justificado a la derecha */
+    flex: 1; /* Toma el espacio necesario para expandirse */
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para el título */
+.titulo {
+    font-size: 22px; /* Tamaño de fuente */
+    color: #fff; /* Color blanco */
+    /* Margin y Padding ajustados para centrar el título */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+/* Estilo para el subtitulo */
+.subtitulo {
+    font-size: 18px; /* Tamaño de fuente igual al de los botones */
+    color: #fff; /* Color blanco */
+    margin-left: auto; /* Mueve el subtitulo hacia la derecha */
+    margin-right: 5px; /* Agrega margen derecho al subtitulo */
+}
+
+/* Estilos para los menús */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Coloca los botones en el lado derecho */
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para los menús desplegables */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #2b2b2b;
+    list-style: none;
+    padding: 0;
+    min-width: 150px;
+    top: 100%; /* Despliega los menús hacia abajo */
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: block;
+}
+
+/* Estilos para mostrar los menús en pantalla grande */
+.show {
+    display: block;
+}
+
+/* Estilos para el icono a la derecha */
+#icono-derecha {
+    width: 40px;
+    height: 40px;
+    margin-left: auto; /* Mueve el icono hacia la derecha */
+    margin-right: 20px; /* Agrega margen derecho al icono */
+}
