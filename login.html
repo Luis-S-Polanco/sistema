@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <div class="center-container">
+        <div class="login-container">
+            <div class="icon-container">
+                <img src="iconos/usuario.png" alt="Estudiante Icon">
+            </div>
+            <h1>Iniciar Sesión cliente</h1>
+            <div class="form-container">
+                <form id="estudiante-form">
+                    <div class="input-container">
+                        <input type="text" placeholder="Usuario" id="estudiante-matricula">
+                    </div>
+                    <div class="input-container">
+                        <input type="password" placeholder="Contraseña" id="estudiante-contrasena">
+                    </div>
+                    <button type="button" onclick="login('estudiante')">Iniciar Sesión</button>
+                    <a href="cambiode-contraseña.html">¿Olvidaste tu contraseña?</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="JS/inicio-logica.js"></script>
+</body>
+</html>
